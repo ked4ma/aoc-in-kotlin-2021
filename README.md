@@ -10,6 +10,11 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Kotlin Slack][slack]
 - Template [issue tracker][issues]
 
+# Days 
+- [Day01](https://adventofcode.com/2021/day/1) [[my code](src/main/kotlin/Day01.kt)]: Sonar Sweep
+- [Day02](https://adventofcode.com/2021/day/2) [[my code](src/main/kotlin/Day02.kt)]: Dive!
+- [Day03](https://adventofcode.com/2021/day/3) [[my code](src/main/kotlin/Day03.kt)]: Binary DiagnosticBinary Diagnostic
+- [Day04](https://adventofcode.com/2021/day/4) [[my code](src/main/kotlin/Day04.kt)]: Giant Squid
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
