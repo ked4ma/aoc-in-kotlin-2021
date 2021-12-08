@@ -18,6 +18,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day05](https://adventofcode.com/2021/day/5) [[my code](src/main/kotlin/Day05.kt)]: Hydrothermal Venture
 - [Day06](https://adventofcode.com/2021/day/6) [[my code](src/main/kotlin/Day06.kt)]: Lanternfish
 - [Day07](https://adventofcode.com/2021/day/7) [[my code](src/main/kotlin/Day07.kt)]: The Treachery of Whales
+- [Day08](https://adventofcode.com/2021/day/8) [[my code](src/main/kotlin/Day08.kt)]: Seven Segment Search
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
