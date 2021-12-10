@@ -19,7 +19,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day06](https://adventofcode.com/2021/day/6) [[my code](src/main/kotlin/Day06.kt)]: Lanternfish
 - [Day07](https://adventofcode.com/2021/day/7) [[my code](src/main/kotlin/Day07.kt)]: The Treachery of Whales
 - [Day08](https://adventofcode.com/2021/day/8) [[my code](src/main/kotlin/Day08.kt)]: Seven Segment Search
-
+- [Day09](https://adventofcode.com/2021/day/9) [[my code](src/main/kotlin/Day09.kt)]: Smoke Basin
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
     Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-four days.
