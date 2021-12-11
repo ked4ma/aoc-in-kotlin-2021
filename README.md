@@ -21,6 +21,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day08](https://adventofcode.com/2021/day/8) [[my code](src/main/kotlin/Day08.kt)]: Seven Segment Search
 - [Day09](https://adventofcode.com/2021/day/9) [[my code](src/main/kotlin/Day09.kt)]: Smoke Basin
 - [Day10](https://adventofcode.com/2021/day/10) [[my code](src/main/kotlin/Day10.kt)]: Syntax Scoring
+- [Day11](https://adventofcode.com/2021/day/11) [[my code](src/main/kotlin/Day11.kt)]: Dumbo Octopus
  
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
