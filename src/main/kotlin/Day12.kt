@@ -19,41 +19,27 @@ fun main() {
         return nodeMap.getValue("start")
     }
 
-    fun part1(input: List<String>): Int {
-        fun dfs(node: Node, visited: Set<String>, routes: Set<String>): Set<String> {
-            if (node.key == "end") return routes
-            if (node.key in visited) return emptySet()
-            val v = if (node.key == node.key.lowercase()) {
-                visited + node.key
-            } else {
-                visited
-            }
-            val neighbors = node.link.filter { it.key != "start" }
-            return neighbors.flatMap { neighbor ->
-                dfs(neighbor, v, routes.map { "$it,${neighbor.key}" }.toSet())
-            }.toSet()
+    fun dfs(node: Node, visited: Set<String>, routes: Set<String>, strict: Boolean = true): Set<String> {
+        if (node.key == "end") return routes
+        if (node.key in visited && strict) return emptySet()
+        val s = strict || node.key in visited
+        val v = if (node.key == node.key.lowercase()) {
+            visited + node.key
+        } else {
+            visited
         }
+        val neighbors = node.link.filter { it.key != "start" }
+        return neighbors.flatMap { neighbor ->
+            dfs(neighbor, v, routes.map { "$it,${neighbor.key}" }.toSet(), s)
+        }.toSet()
+    }
 
+    fun part1(input: List<String>): Int {
         return dfs(parse(input), emptySet(), setOf("start")).size
     }
 
     fun part2(input: List<String>): Int {
-        fun dfs(node: Node, visited: Set<String>, strict: Boolean, routes: Set<String>): Set<String> {
-            if (node.key == "end") return routes
-            if (node.key in visited && strict) return emptySet()
-            val s = strict || node.key in visited
-            val v = if (node.key == node.key.lowercase()) {
-                visited + node.key
-            } else {
-                visited
-            }
-            val neighbors = node.link.filter { it.key != "start" }
-            return neighbors.flatMap { neighbor ->
-                dfs(neighbor, v, s, routes.map { "$it,${neighbor.key}" }.toSet())
-            }.toSet()
-        }
-
-        return dfs(parse(input), emptySet(), false, setOf("start")).size
+        return dfs(parse(input), emptySet(), setOf("start"), strict = false).size
     }
 
     // test if implementation meets criteria from the description, like:
