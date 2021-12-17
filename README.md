@@ -23,7 +23,8 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day10](https://adventofcode.com/2021/day/10) [[my code](src/main/kotlin/Day10.kt)]: Syntax Scoring
 - [Day11](https://adventofcode.com/2021/day/11) [[my code](src/main/kotlin/Day11.kt)]: Dumbo Octopus
 - [Day12](https://adventofcode.com/2021/day/12) [[my code](src/main/kotlin/Day12.kt)]: Passage Pathing
- 
+- [Day13](https://adventofcode.com/2021/day/13) [[my code](src/main/kotlin/Day13.kt)]: Transparent Origami
+
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
     Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-four days.
