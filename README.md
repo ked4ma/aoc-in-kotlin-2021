@@ -26,6 +26,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day13](https://adventofcode.com/2021/day/13) [[my code](src/main/kotlin/Day13.kt)]: Transparent Origami
 - [Day14](https://adventofcode.com/2021/day/14) [[my code](src/main/kotlin/Day14.kt)]: Extended Polymerization
 - [Day15](https://adventofcode.com/2021/day/15) [[my code](src/main/kotlin/Day15.kt)]: Chiton
+- [Day16](https://adventofcode.com/2021/day/16) [[my code](src/main/kotlin/Day16.kt)]: Packet Decoder
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
