@@ -25,6 +25,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day12](https://adventofcode.com/2021/day/12) [[my code](src/main/kotlin/Day12.kt)]: Passage Pathing
 - [Day13](https://adventofcode.com/2021/day/13) [[my code](src/main/kotlin/Day13.kt)]: Transparent Origami
 - [Day14](https://adventofcode.com/2021/day/14) [[my code](src/main/kotlin/Day14.kt)]: Extended Polymerization
+- [Day15](https://adventofcode.com/2021/day/15) [[my code](src/main/kotlin/Day15.kt)]: Chiton
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
