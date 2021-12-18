@@ -1,5 +1,3 @@
-import java.util.ArrayDeque
-
 fun main() {
     // dijkstra
     fun solve(data: Array<Array<Int>>): Int {
