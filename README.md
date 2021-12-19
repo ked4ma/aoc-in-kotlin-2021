@@ -29,6 +29,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day16](https://adventofcode.com/2021/day/16) [[my code](src/main/kotlin/Day16.kt)]: Packet Decoder
 - [Day17](https://adventofcode.com/2021/day/17) [[my code](src/main/kotlin/Day17.kt)]: Trick Shot
 - [Day18](https://adventofcode.com/2021/day/18) [[my code](src/main/kotlin/Day18.kt)]: Snailfish
+- [Day19](https://adventofcode.com/2021/day/19) [[my code](src/main/kotlin/Day19.kt)]: Beacon Scanner
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
