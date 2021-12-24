@@ -35,8 +35,13 @@ fun main() {
                 }
             }
         }.groupingBy { it }.eachCount()
+        val dp = mutableMapOf<List<Int>, LongArray>()
 
         fun dfs(depth: Int, positions: IntArray, scores: IntArray): LongArray {
+            val key = listOf(depth % 2, positions[0], positions[1], scores[0], scores[1])
+            if (key in dp) {
+                return dp.getValue(key)
+            }
             if (scores.any { it >= 21 }) {
                 return scores.map { if (it >= 21) 1L else 0L }.toLongArray()
             }
@@ -57,6 +62,8 @@ fun main() {
                     acc0 + count0,
                     acc1 + count1,
                 )
+            }.apply {
+                dp[key] = this
             }
         }
 
