@@ -32,6 +32,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day19](https://adventofcode.com/2021/day/19) [[my code](src/main/kotlin/Day19.kt)]: Beacon Scanner
 - [Day20](https://adventofcode.com/2021/day/20) [[my code](src/main/kotlin/Day20.kt)]: Trench Map
 - [Day21](https://adventofcode.com/2021/day/21) [[my code](src/main/kotlin/Day21.kt)]: Dirac Dice
+- [Day22](https://adventofcode.com/2021/day/22) [[my code](src/main/kotlin/Day22.kt)]: Reactor Reboot
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
