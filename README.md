@@ -35,6 +35,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day22](https://adventofcode.com/2021/day/22) [[my code](src/main/kotlin/Day22.kt)]: Reactor Reboot
 - [Day23](https://adventofcode.com/2021/day/23) [[my code](src/main/kotlin/Day23.kt)]: Amphipod
 - [Day24](https://adventofcode.com/2021/day/24) [[my code](src/main/kotlin/Day24.kt)]: Arithmetic Logic Unit
+- [Day25](https://adventofcode.com/2021/day/25) [[my code](src/main/kotlin/Day25.kt)]: Sea Cucumber
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
