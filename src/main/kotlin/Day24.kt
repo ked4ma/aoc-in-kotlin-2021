@@ -32,14 +32,17 @@ fun main() {
         index: Int,
         cur: Long,
         opsGroup: List<List<Ops>>,
-        vars: LongArray
+        vars: LongArray,
+        range: IntProgression,
+        visited: MutableSet<String>
     ): Long {
         if (index == opsGroup.size) {
-            println("$cur ${vars.last()}")
             return if (vars.last() == 0L) cur else 0
         }
+        val key = "$index,${vars[1]},${vars[2]}${vars[3]}"
+        if (key in visited) return 0L
         val ops = opsGroup[index]
-        (9 downTo 1).forEach{
+        range.forEach {
             val v = vars.copyOf()
             ops.forEach { op ->
                 when (op) {
@@ -57,10 +60,11 @@ fun main() {
                     }
                 }
             }
-            val res = dfs(index + 1, cur * 10 + it, opsGroup, v)
+            val res = dfs(index + 1, cur * 10 + it, opsGroup, v, range, visited)
             if (res > 0) {
                 return res
             }
+            visited.add(key)
         }
         return 0
     }
@@ -68,21 +72,18 @@ fun main() {
     fun part1(input: List<String>): String {
         val ops = split(input).toList()
         val vars = longArrayOf(0, 0, 0, 0)
-        return dfs(0, 0, ops, vars).toString()
+        return dfs(0, 0, ops, vars, (9 downTo 1), mutableSetOf()).toString()
     }
 
-    fun part2(input: List<String>): Int {
-        return 0
+    fun part2(input: List<String>): String {
+        val ops = split(input).toList()
+        val vars = longArrayOf(0, 0, 0, 0)
+        return dfs(0, 0, ops, vars, 1..9, mutableSetOf()).toString()
     }
-
-    // test if implementation meets criteria from the description, like:
-//    val testInput = readInput("Day23_test")
-//    check(part1(testInput) == 12_521)
-//    check(part2(testInput) == 44_169)
 
     val input = readInput("Day24")
     println(part1(input).apply {
         check(this == "96299896449997")
     })
-//    println(part2(input))
+    println(part2(input))
 }

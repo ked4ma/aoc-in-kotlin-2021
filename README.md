@@ -34,6 +34,7 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 - [Day21](https://adventofcode.com/2021/day/21) [[my code](src/main/kotlin/Day21.kt)]: Dirac Dice
 - [Day22](https://adventofcode.com/2021/day/22) [[my code](src/main/kotlin/Day22.kt)]: Reactor Reboot
 - [Day23](https://adventofcode.com/2021/day/23) [[my code](src/main/kotlin/Day23.kt)]: Amphipod
+- [Day24](https://adventofcode.com/2021/day/24) [[my code](src/main/kotlin/Day24.kt)]: Arithmetic Logic Unit
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
